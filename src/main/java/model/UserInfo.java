@@ -9,9 +9,12 @@ public class UserInfo {
     private String activeUser;
 
     /**
-     * 1- This method create a user with specified username, full name and password.
-     * .................................................................................................................
-     * 2- "activeUser" is used for spotting the active user.
+     * This method create a user with specified username, full name and password.
+     * @param usersUserName user write a username for creating an account.
+     * @param fullName user type full name for the account.
+     * @param passWord user generating a password for the account.
+     * @param activeUser will be attached automatically after creating username
+     *                  which will be used to spotting the active user.
      */
     public UserInfo(String usersUserName, String fullName, String passWord, String activeUser) {
         this.usersUserName = usersUserName;

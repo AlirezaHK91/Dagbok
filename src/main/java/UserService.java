@@ -4,17 +4,16 @@ import model.UserInfo;
 import java.io.IOException;
 import java.util.ConcurrentModificationException;
 import java.util.Scanner;
-
+/**
+ * This class is created to control and verify user's information and give users possibility
+ * to make changes in their account.
+ */
 public class UserService {
-    /**
-     * This class is created to control and verify user's information and give users possibility
-     * to make changes in their account.
-     */
+
     public static Scanner scanner;
 
     /**
      * This method throws an exception when the program checks if the username is found or not.
-     *
      * @throws UserException
      */
     public static void checkUserNameFound() throws UserException {

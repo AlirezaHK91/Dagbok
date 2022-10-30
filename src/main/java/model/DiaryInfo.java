@@ -10,9 +10,12 @@ public class DiaryInfo {
     private String userName;
 
     /**
-     * 1- This method create a content with specified title, text, date.
-     * .................................................................................................................
-     * 2- "userName" is used for clarifying the user who creates the content.
+     * This method create a content with specified title, text, date.
+     * @param myTitle user type a title for the diary.
+     * @param myText user write text for the diary.
+     * @param dateOfText date will be generated automatically.
+     * @param userName will be attached automatically according to the active user which
+     *                will be used for clarifying the user who creates the content.
      */
 
     public DiaryInfo(String myTitle, String myText, String dateOfText, String userName) {
