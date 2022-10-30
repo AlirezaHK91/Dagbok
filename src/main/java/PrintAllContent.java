@@ -11,7 +11,7 @@ public class PrintAllContent {
     /**
      * This method is used for reading the active user's contents from json file and printing them out.
      */
-    public static void printUsers() throws IOException {
+    public static void printUsersContent() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         ControlJsonAndLists.tempDiaryList = List.of(objectMapper.readValue(ControlJsonAndLists.diaryFile, DiaryInfo[].class));
 

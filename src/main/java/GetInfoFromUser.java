@@ -46,7 +46,7 @@ public class GetInfoFromUser {
      * 7- When user is done with writing username, full name and password, the information will be added to the
      * user list and json file.
      */
-    public static void getUserNameInfo() throws IOException {
+    public static void getUserInfo() throws IOException {
         scanner= new Scanner(System.in);
         ObjectMapper objectMapper= new ObjectMapper();
         String specialChar= "[!,\"'+*<>{#}¤@~`)%£$€(&:;/?½=¨^|´]";

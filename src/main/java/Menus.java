@@ -46,7 +46,7 @@ public class Menus {
 
             choice = scanner.nextLine();
             switch (choice) {
-                case "1" -> PrintAllContent.printUsers();
+                case "1" -> PrintAllContent.printUsersContent();
                 case "2" -> GetInfoFromUser.getDiaryInfo();
                 case "3" -> System.out.println("""
                         ...............................

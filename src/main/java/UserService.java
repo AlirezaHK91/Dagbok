@@ -126,7 +126,7 @@ public class UserService {
      * 7- If user choose " N " the process will be stopped right away and no action will be taken.
      */
 
-    public static void removeUser() throws IOException {
+    public static void deleteAccount() throws IOException {
         Scanner scanner1 = new Scanner(System.in);
         ObjectMapper objectMapper = new ObjectMapper();
 

@@ -24,10 +24,10 @@ public class Main {
                 choice = scanner.nextLine();
 
                 switch (choice) {
-                    case "1" -> GetInfoFromUser.getUserNameInfo();
+                    case "1" -> GetInfoFromUser.getUserInfo();
                     case "2" -> UserService.verifyUser();
                     case "3" -> UserService.changePassword();
-                    case "4" -> UserService.removeUser();
+                    case "4" -> UserService.deleteAccount();
                     case "5" -> System.out.println("""
                             Nu stängs programmet.
                                                             
