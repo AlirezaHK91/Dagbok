@@ -115,14 +115,14 @@ public class GetInfoFromUser {
         String titel="";
         String text="";
 
-        while (text.isEmpty()) {
+        while (titel.isEmpty()) {
             System.out.print("Skriv titel : ");
-            text = scanner.nextLine();
+            titel = scanner.nextLine();
             ControlJsonAndLists.diaryInfo.setMyTitle(titel);
         }
-        while (titel.isEmpty()){
+        while (text.isEmpty()){
             System.out.print("Skriv din text : ");
-            titel = scanner.nextLine();
+            text = scanner.nextLine();
             ControlJsonAndLists.diaryInfo.setMyText(text);
         }
 
