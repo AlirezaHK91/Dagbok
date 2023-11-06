@@ -1,4 +1,4 @@
-**This a simple diary application**
+**This is a simple diary application**
 
   # In this application you can: 
 
